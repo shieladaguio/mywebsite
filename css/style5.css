@@ -1,0 +1,28 @@
+*{
+    font-family: 'Itim', cursive;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+h1{
+  font-size: 4em;
+  text-align: center;
+}
+.grid{
+  margin: 3%;
+  padding: 5%;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 30px; 
+  place-items: center;
+  padding: 5px;
+  background-color: rgb(247, 225, 184);
+}
+.grid-item3 li{
+  text-decoration: none ;
+}
+
+
+.grid-item1 h2{
+  font-size: 3em;
