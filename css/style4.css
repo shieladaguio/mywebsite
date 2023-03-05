@@ -1,0 +1,71 @@
+*{
+    font-family: 'Itim', cursive;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+body{
+  background-image: url("../media/images/coding.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+.container{
+  position: absolute;
+  right: 0;
+  width: 100%;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.container nav{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu{
+  float: right;
+  margin-right: 20px;   
+}
+
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+nav ul li a{
+  color: white;
+  font-size: 1.5em;
+  text-decoration: none;
+  transform: uppercase;
+}
+
+.menu ul li a:hover{
+    color: #03a9f4;
+}
+
+.title{
+  text-transform: uppercase;
+}
+
+.container h1{
+  font-size: 4em;
+  font-weight: 800;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+
+.container h2{
+  padding-top: 50px;
+}
